@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Product Order Page</title>
+</head>
+<body>
+    <header>
+        <h1>GoldenBag Product Order Page</h1>
+        <p>A GoldenBag Product order page where you get all different golden bags for womens/girls.</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <article>
+                <img src="https://m.media-amazon.com/images/I/41T01cl+2gL._AC_UY900_.jpg" alt="goldenbag with grey background" width="250">
+                <h2>Golden Chain Bag</h2>
+                <p>Small Golden Bag with Golden Chain – Golden Shoulder Bag – Leather in Crocodile Look – with Safety Clasp – Fashion Model, Gold.</p>
+                <p>Price: <strong>900 USD</strong></p>
+            </article>
+
+            <article>
+                <img src="https://www.casparionline.com/cdn/shop/products/92920b3-caspari-antique-gold-large-gift-bag-1-each-28413647913095.jpg?v=1767233667" alt="Adorned with cheerful colors" width="250">
+                <h2>Antique Gold Gift</h2>
+                <p>Adorned with cheerful colors, eye-catching prints and patterns, and art from artist and museums around the world, Caspari gift bags elevate your present presentation through exceptional design and quality. Each is printed on durable, heavy-duty paper and features strong handles for carrying.</p>
+                <p>Price: <strong>6.95 USD</strong></p>
+            </article>
+
+            <article>
+                <img src="https://media.shoeaholics.com/product/9482961109/0/union-jack-bag-gold-leather-kurt-geiger-london-9482961109" alt="The Kensington Union Jack bag is crafted from a soft lambskin leather" width="250">
+                <h2>Union Jack Bag</h2>
+                <p>The Kensington Union Jack bag is crafted from a soft lambskin leather with stitched Union Jack design. The antiqued brass Eagle head features crystals on the front flap.</p>
+                <p>Price: <strong>199 USD</strong></p>
+            </article>
+        </section>
+
+        <form>
+            <fieldset>
+                <legend>Customer Name</legend>
+                <label for="customer-name">Enter Your Name</label>
+                <input type="text" name="customer-name" id="customer-name" required/>
+                <label for="customer-email">Enter Your Email Address</label>
+                <input type="email" name="customer-email" id="customer-email" required/>
+            </fieldset>
+
+            <fieldset>
+                <select name="product-selection">
+                    <option value="golden chain bag">Golden chain Bag</option>
+                    <option value="golden chain bag">Golden west Bag</option>
+                    <option value="golden chain bag">Golden hawui Bag</option>
+                    <option value="golden chain bag">Golden bare Bag</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Product Quantity</legend>
+                <label for="quantity">Your Quantity</label>
+                <input type="number" name="quantity" id="quantity">
+            </fieldset>
+
+            <label for="notes">Order Notes</label>
+            <textarea name="notes" id="notes">
+
+            </textarea>
+            <fieldset>
+                <legend>Our Payment Methods</legend>
+                <input type="radio" name="payment" value="evc-plus" id="evc-plus"/>
+                <label for="evc-plus">EVC PLUS</label>
+                <input type="radio" name="payment" value="e-dahab" id="e-dahab"/>
+                <label for="e-dahab">E-DAHAB</label>
+                <input type="radio" name="payment" value="salaam-bank" id="salaam-bank"/>
+                <label for="salaam-bank">SALAAM SOMALI BANK</label>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Payment Method</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ahmed Muse</td>
+                    <td>Golden chain bag</td>
+                    <td>2</td>
+                    <td>EVC PLUS</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <address>
+            <p>KM4, Faraj Ugas Mall 123</p>
+            <P>25261696268</P>
+            <P><a href="mailto:usama.meisour@gmailcom">usama.meisour@gmail.com</a></P>
+        </address>
+    </footer>
+</body>
+</html>
