@@ -1,13 +1,13 @@
-/* body{
-    background-color: grey;
-} */
+body{
+    background: linear-gradient(250deg, green, lightblue, blue)
+}
 
 h1{
     font-size: 40px;
     text-align: center;
 }
 
-.p{
+h1 + p{
     font-size: 20px;
     text-align: center;
     margin-top: -12px;
@@ -18,9 +18,32 @@ h1{
     background-color: antiquewhite;
     color: black;
     margin: 40px;
-    padding: 25px;
+    padding: 30px;
+
+    border-radius: 10px;
 }
 
 .Card-container > p{
     font-size: 18px;
+}
+
+.btn{
+    background-color: yellowgreen;
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: tomato;
+    color: wheat;
+}
+
+.btn:visited{
+    background-color: thistle;
+}
+
+.btn:active{
+    background-color: black;
+    color: white;
 }
