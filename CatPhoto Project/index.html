@@ -4,45 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CatPhotoApp</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-        <h1> CatPhotoApp</h1>
-        <section>
+    <main id="cat-container">
+        <h1> CatPhoto App </h1>
+        <section id="cute-cat">
             <h2>Cat Photos</h2>
             <p> Everyone loves <a href="#">cute cats</a> online!</p>
 
             <p>See more <a href="#">cat photos</a> in our gallery.<p>
-            <img src="cat photo.jfif" alt="Cute Cat Photo"/>
+            <img src="Assets/Images/cat photo.jfif" alt="Cute Cat Photo" id="lasagna"/>
         </section>
 
-        <section>
-            <h2> Cat Lists</h2>
-            <ul>
-                <h3> Things Cats Love: </h3>
-                <li>Catnip</li>
-                <li>Laser Pointers</li>
-                <li>Lasagna</li>
-            </ul>
-            <figure>
-                <img src="lasagna.jfif" alt="Cats Love Lasagna"/>
-                <figcaption>
-                    Cats <em>Love</em> Lasagna
-                </figcaption>
-            </figure>
-            
-            <ol>
-                <h2> Top 3 things cats hate: </h2>
-                <li>Fleatreatment</li>
-                <li>Thunder</li>
-                <li>Other Cats</li>
-            </ol>
-            <figure>
-                <img src="cats sleep together.jpg" alt="two cats love each other"/>
-                <figcaption>Cats <strong>Hates</strong> Other cats</figcaption>
-            </figure>
+        <section class="cats">
+            <section class="cat-card">
+                <h2> Cat Love Lists </h2>
+                <ul>
+                    <h3> Top 3 Things Cats Love: </h3>
+                    <li>Catnip</li>
+                    <li>Laser Pointers</li>
+                    <li>Lasagna</li>
+                </ul>
+                <figure>
+                    <img src="Assets/Images/lasagna.jfif" alt="Cats Love Lasagna"/>
+                    <figcaption>
+                        Cats <em>Love</em> Lasagna
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="cat-card">
+                <h2> Cat Hate Lists </h2>
+                <ol>
+                    <h3> Top 3 Things Cats Hate: </h3>
+                    <li>Fleatreatment</li>
+                    <li>Thunder</li>
+                    <li>Other Cats</li>
+                </ol>
+                <figure>
+                    <img src="Assets/Images/cats sleep together.jpg" alt="two cats love each other" class="big-one"/>
+                    <figcaption>Cats <strong>Hates</strong> Other cats</figcaption>
+                </figure>
+            </section>
         </section>
-        <footer>Copywright@2026 - Designed and Developed By UsamaMoham</footer>
+        
+        <footer>Copywright@2026 - Designed and Developed By <span>UsamaMohamud</span></footer>
     </main>
 </body>
 </html>

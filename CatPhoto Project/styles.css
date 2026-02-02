@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#cute-cat{
+    width: 1265px;
+    background-color: #15173D;
+    color: white;
+    padding: 20px;
+    margin: 25px 0 25px 25px;
+    line-height: 30px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#lasagna{
+    height: 600px;
+}
+
+.cats{
+    display: flex;
+    gap: 0.25rem;
+}
+
+img{
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: springgreen;
+}
+
+.cat-card{
+    width: 595px;
+    background-color: #09637E;
+    color: #EBF4F6;
+    padding: 24px;
+    margin: 20px 0 20px 20px;
+    line-height: 25px;
+    border-radius: 8px;
+}
+
+.cat-card > h2{
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+figure{
+    margin-left: 25px;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+.big-one{
+    width: 300px;
+}
+
+footer{
+    margin: 25px;
+    text-align: center;
+}
+span{
+    color: #088395;
+}
