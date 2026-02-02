@@ -13,6 +13,27 @@ h1{
     margin-top: 25px;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: .25rem;
+    margin: 24px;
+}
+
+li a{
+    background-color: #15173D;
+    color: white;
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background-color: springgreen;
+    color: black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 #cute-cat{
     width: 1265px;
     background-color: #15173D;
@@ -44,10 +65,10 @@ a{
 }
 
 .cat-card{
-    width: 595px;
+    width: 577px;
     background-color: #09637E;
     color: #EBF4F6;
-    padding: 24px;
+    padding: 34px;
     margin: 20px 0 20px 20px;
     line-height: 25px;
     border-radius: 8px;
