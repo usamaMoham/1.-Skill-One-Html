@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #355872;
+    color: white;
+}
+
+.container{
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+img{
+    width: 250px;
+}
+
+p{
+    font-size: 15px;
+    max-width: 600px;
+}
+
+.rating{
+    display: flex;
+    gap: .5rem;
+}
+
+.havard{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.members{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+ul li{
+    list-style-position: inside;
+    list-style-type: decimal;
+}
